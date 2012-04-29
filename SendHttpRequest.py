@@ -34,7 +34,7 @@ def http_POST(body):
     conn = g_server.get("conn")
     url = g_server.get("url")
     http_headers = {"Content-type":"application/json"}
-    http_body = (body)
+    http_body = urllib.urlencode(body)
     print "[INFO]: Start sending HTTP POST request to url: " + url + "with the body: " + body
     conn.request("POST", url, http_body, http_headers)
     response = conn.getresponse()
@@ -92,9 +92,8 @@ def main():
 
 
 #if __name__ =="__main__":
-print "\n"  
+print "\n"
 main()
 print "\n"
-
 
 

@@ -2,7 +2,8 @@
 
 import re
 import os
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
+#import BeautifulSoup
 import HTMLParser
 import sys
 import MySQLdb
@@ -238,13 +239,14 @@ def storeTags(conn, tag):
 		conn.close()
 		sys.exit(1)
 			
-def storeToDB():
-	conn = MySQLdb.connect(host="ec2-204-236-172-73.us-west-1.compute.amazonaws.com", 
-			user="root", passwd="RooT", db="spider", charset="utf8")
-	parseHTML(conn, file_name)
-	conn.close()
+#def storeToDB():
+#	conn = MySQLdb.connect(host="ec2-204-236-172-73.us-west-1.compute.amazonaws.com", 
+#			user="root", passwd="RooT", db="spider", charset="utf8")
+#	parseHTML(conn, file_name)
+#	conn.close()
 
 if __name__ == "__main__":
+        file_name = None
 	try:
 	    opts,args = getopt.getopt(sys.argv[1:],"f:")
 	    for op,value in opts:

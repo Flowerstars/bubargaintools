@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/python
 #coding=utf8
 import urllib
 import urllib2
@@ -160,5 +160,10 @@ def testCookie():
         print 'Test error!'
         print Exception.message
 
+<<<<<<< HEAD
 #login()
 testCookie()
+=======
+login()
+#testCookie()
+>>>>>>> 880e3c569d3af4cc03f664c34e458e1ea4b4d990

@@ -12,7 +12,11 @@ def traverseDir(dir_name, parser):
 		print city_dir_list
 	for city in city_dir_list:
 		for index in range(1,51):
+<<<<<<< HEAD
 		    file_name = parser + " -f " + str(os.path.join(city,str(index)+'.txt'))
+=======
+		    file_name = parser + " -f " + str(os.path.join(city,str(index)+".txt"))
+>>>>>>> 880e3c569d3af4cc03f664c34e458e1ea4b4d990
 		    print file_name
 		    os.system(file_name)
 

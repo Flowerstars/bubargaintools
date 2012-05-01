@@ -62,8 +62,8 @@ def login():
     cookies = cookielib.LWPCookieJar(cookiefile)
     opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookies), urllib2.HTTPHandler)
     urllib2.install_opener(opener)
-    username = 'bubargain@gmail.com'
-    pwd = 'bubarGAIN'
+    username = 'dw1161@nyu.edu'
+    pwd = '19891111'
     url = 'http://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.3.22)'
     try:
         servertime, nonce = get_servertime()
@@ -132,6 +132,27 @@ def testCookie():
         print login_url
         opentxt = urllib2.urlopen(login_url).read()
         print opentxt
+        count=0 #
+        for district in [2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,28,29]:
+            if not os.path.exists(str(district)):
+                os.mkdir(str(district))
+            page = 0
+            while page<50:
+                time.sleep(5)
+                searchUrl = 'http://s.weibo.com/user/&keytime=1335657463672&region=custom:11:%d&page=%d'%(district,page+1)
+                content =urllib2.urlopen(searchUrl).read()
+                if not '你搜索的太頻繁了' in content:
+                    count=0
+                    f = open(str(district)+'/'+str(page+1)+'.txt', 'w')
+                    f.write(content)
+                    print 'write to '+str(district)+'/'+str(page+1)+'.txt'
+                    f.close()
+                else:
+                    count=count+1
+                    print 'Too busy! Wait '+str(60*count)+'s to write to '+str(district)+'/'+str(page+1)+'.txt'
+                    time.sleep(60*count)
+                    page = page-1   #search for this page again
+                page = page+1
         #weibotxt = urllib2.urlopen('http://s.weibo.com/user/&keytime=1335657463672&region=custom:11:1000&page=1').read()
         #print weibotxt
         print "Test Successful!"
@@ -139,5 +160,5 @@ def testCookie():
         print 'Test error!'
         print Exception.message
 
-login()
-#testCookie()
+#login()
+testCookie()

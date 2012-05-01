@@ -12,7 +12,7 @@ def traverseDir(dir_name, parser):
 		print city_dir_list
 	for city in city_dir_list:
 		for index in range(1,51):
-		    file_name = parser + " -f " + str(os.path.join(city,str(index)))
+		    file_name = parser + " -f " + str(os.path.join(city,str(index)+'.txt'))
 		    print file_name
 		    os.system(file_name)
 
@@ -34,9 +34,9 @@ def main():
 	    print "[ERROR]: Please give the parsed file name and path."
 	    print "[INFO]: Stored " + " New Person In Total!"
 	    sys.exit(1)
-	    
+
 	traverseDir(dir_name, parser)
-	
+
 if __name__ == "__main__":
     main()
-	    
+

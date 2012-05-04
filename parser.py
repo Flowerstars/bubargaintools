@@ -2,8 +2,7 @@
 
 import re
 import os
-#from bs4 import BeautifulSoup
-#import BeautifulSoup
+from bs4 import BeautifulSoup
 import HTMLParser
 import sys
 import MySQLdb
@@ -264,17 +263,4 @@ if __name__ == "__main__":
 	conn = MySQLdb.connect(host="ec2-204-236-172-73.us-west-1.compute.amazonaws.com", user="root", passwd="RooT", db="spider", charset="utf8")
 	parseHTML(conn, file_name)
 	conn.close()
-	
-	#for index in r ange(1,30):
-	# 		fileName = '-'.join(["11",str(index)])
-	# 		l = parseHTML(fileName)
-	# 		for data in l:
-	# 			for s in data:
-	# 				if s:
-	# 					print s
-	# 				else:
-	# 					print "missing"
-	# 			print '\n'
-	
-	
 	

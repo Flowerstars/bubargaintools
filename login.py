@@ -58,13 +58,13 @@ def get_user(username):
 
 
 def login():
-    cookiefile='./cookies.txt'
+    username = 'flyingjoe2010@gmail.com'
+    pwd = 'wonderful1989'
+    url = 'http://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.3.22)'
+    cookiefile='./cookies'+username[0:5]+'.txt'
     cookies = cookielib.LWPCookieJar(cookiefile)
     opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookies), urllib2.HTTPHandler)
     urllib2.install_opener(opener)
-    username = 'dw1161@nyu.edu'
-    pwd = '19891111'
-    url = 'http://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.3.22)'
     try:
         servertime, nonce = get_servertime()
     except:
@@ -94,7 +94,7 @@ def login():
         cookies.save(cookiefile)
         #begin crawling
         count=0 #
-        for district in [2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,28,29]:
+        for district in [17,28,29]:
             if not os.path.exists(str(district)):
                 os.mkdir(str(district))
             page = 0
@@ -110,8 +110,8 @@ def login():
                     f.close()
                 else:
                     count=count+1
-                    print 'Too busy! Wait '+str(60*count)+'s to write to '+str(district)+'/'+str(page+1)+'.txt'
-                    time.sleep(60*count)
+                    print 'Too busy! Wait '+str(1800*count)+'s to write to '+str(district)+'/'+str(page+1)+'.txt'
+                    time.sleep(1800*count)
                     page = page-1   #search for this page again
                 page = page+1
         print "Successful!"
@@ -119,7 +119,7 @@ def login():
         print 'Login error!'
 
 def testCookie():
-    cookiefile='./cookies.txt'
+    cookiefile='./cookiesflyin.txt'
     cookiejar = cookielib.LWPCookieJar(cookiefile)
     cookiejar.load(cookiefile)
     opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookiejar), urllib2.HTTPHandler)
@@ -133,7 +133,7 @@ def testCookie():
         opentxt = urllib2.urlopen(login_url).read()
         print opentxt
         count=0 #
-        for district in [2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,28,29]:
+        for district in [13,14,15,16,17,28,29]:
             if not os.path.exists(str(district)):
                 os.mkdir(str(district))
             page = 0
@@ -149,8 +149,8 @@ def testCookie():
                     f.close()
                 else:
                     count=count+1
-                    print 'Too busy! Wait '+str(60*count)+'s to write to '+str(district)+'/'+str(page+1)+'.txt'
-                    time.sleep(60*count)
+                    print 'Too busy! Wait '+str(3600*count)+'s to write to '+str(district)+'/'+str(page+1)+'.txt'
+                    time.sleep(3600*count)
                     page = page-1   #search for this page again
                 page = page+1
         #weibotxt = urllib2.urlopen('http://s.weibo.com/user/&keytime=1335657463672&region=custom:11:1000&page=1').read()
@@ -160,10 +160,5 @@ def testCookie():
         print 'Test error!'
         print Exception.message
 
-<<<<<<< HEAD
-#login()
-testCookie()
-=======
 login()
 #testCookie()
->>>>>>> 880e3c569d3af4cc03f664c34e458e1ea4b4d990

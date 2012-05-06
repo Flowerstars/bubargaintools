@@ -94,9 +94,10 @@ def login():
         cookies.save(cookiefile)
         #begin crawling
         count=0 #
-        for district in [17,28,29]:
-            if not os.path.exists(str(district)):
-                os.mkdir(str(district))
+        print 'here!'
+        for district in [29]:
+            if not os.path.exists('data/'+str(district)):
+                os.mkdir('data/'+str(district))
             page = 0
             while page<50:
                 time.sleep(5)
@@ -104,13 +105,13 @@ def login():
                 content =urllib2.urlopen(searchUrl).read()
                 if not '你搜索的太頻繁了' in content:
                     count=0
-                    f = open(str(district)+'/'+str(page+1)+'.txt', 'w')
+                    f = open('data/'+str(district)+'/'+str(page+1)+'.txt', 'w')
                     f.write(content)
-                    print 'write to '+str(district)+'/'+str(page+1)+'.txt'
+                    print 'write to data/'+str(district)+'/'+str(page+1)+'.txt'
                     f.close()
                 else:
                     count=count+1
-                    print 'Too busy! Wait '+str(1800*count)+'s to write to '+str(district)+'/'+str(page+1)+'.txt'
+                    print 'Too busy! Wait '+str(1800*count)+'s to write to data/'+str(district)+'/'+str(page+1)+'.txt'
                     time.sleep(1800*count)
                     page = page-1   #search for this page again
                 page = page+1

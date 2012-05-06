@@ -1,0 +1,842 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="http://img.t.sinajs.cn/t4/style/css/module/global/out_frame.css?version=1335177000" type="text/css" rel="stylesheet" />
+<link href="http://img.t.sinajs.cn/t4/appstyle/searchV41/css/pages/person.css?version=201205031835" type="text/css" rel="stylesheet" />
+<link href="http://img.t.sinajs.cn/t4/appstyle/searchV41/skin/default/skin.css?version=201205031835" type="text/css" rel="stylesheet" />
+<script src="http://js.t.sinajs.cn/STK/js/gaea.1.14.js"></script>
+<meta content="IE=8" http-equiv="X-UA-Compatible">
+<title>的相关用户 - 新浪微博</title>
+<script type="text/javascript">
+var  $CONFIG = {
+	'oid': '2424946482',
+	'uid': '2424946482',
+	'timeDiff': (new Date() - 1336331115*1000),
+	'product': '',
+	'pageid': 'sear_user', 
+	'skin': '', 
+	'lang': 'zh-cn', 
+	'jsPath': 'http://js.t.sinajs.cn/t4/', 
+	'cssPath': 'http://img.t.sinajs.cn/t4/', 
+	'imgPath': 'http://img.t.sinajs.cn/t4/',
+	's_domain' : 'http://s.weibo.com',
+	's_keyword': '',
+	'prov' : '400:海外',
+	'city' : '1:美国',
+	'version': '201205031835',
+	'$webim' : '1',
+	'searchBarStatus':'',
+	'entry': ''
+};
+</script>
+</head>
+<!--登录页-->
+<body class="B_search_list B_person">
+<div class="W_miniblog">
+	<div id="weibo_top_public"></div>
+<script src="http://js.t.sinajs.cn/t4//home/js/public/top.js?version=1335177000"></script>
+<script type="text/javascript">
+	var topPublic = {};
+	topPublic['uid'] = "2424946482";
+	topPublic['name'] = "秋生乔木";
+	topPublic['islogin'] = 1;
+	topPublic['icon'] = "http://tp3.sinaimg.cn/2424946482/50/5613369002/1";
+	topPublic['page'] = "search";
+	topPublic['verify'] = "";
+	topPublic['lang'] = "zh-cn";
+	WBtopPublic.init(topPublic);
+</script>
+	<div class="W_main">
+		<!--搜索header-->
+		<div class="search_header">
+	<div class="W_main_l"><a href="http://s.weibo.com" class="s_logo"></a></div>
+				<div class="W_main_c">
+			<div id="pl_searchBar" class="search_bar">
+				<input node-type="keyword" class="input_search" type="text" value="" maxlength="40"/>
+				<a node-type="srchBtn" class="btn_search" href="javascript:void(0);">搜索</a>
+			</div>
+			<p class="search_more" id="pl_advsearchUser">
+								<span class="search_result">找到 500+ 条结果</span>
+												<a class="more" href="javascript:void(0);" node-type="adv_search">高级搜索</a>
+							</p>
+		</div>
+				<div class="W_main_r">
+			<ul class="srch_bar_r" id="pl_aboutTopic">
+				<li><a href="http://weibo.com/f/invite?Refer=Suer_invite" target="_blank">邀请好友关注我</a></li>
+			</ul>
+		</div>
+				</div>
+		<!--/搜索header-->
+		<div class="W_main_bg clearfix" >
+			<div class="W_main_l" id="Box_left">
+				<!--左侧导航-->
+				<div class="search_left_nav">
+	<dl class="search_menu" id="pl_searchMenu">
+		<dd class="ls" node-type="searchMenu">
+			<a class="ico_miniblog" href="/weibo/" action-type="menu" >微博</a>			<a class="ico_person current" href="javascript:void(0);">找人</a>						<a class="ico_pic" href="/pic/" action-type="menu" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_nologin_trans');">图片</a>			<a class="ico_group" href="/q/" action-type="menu" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_nologin_trans');">微群</a>			<a class="ico_event" href="/event/" action-type="menu" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_nologin_trans');">活动</a>			<a class="ico_app" href="/apps/" action-type="menu" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_nologin_trans');">应用</a>			<a class="ico_vote" href="/vote/" action-type="menu" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_nologin_trans');">投票</a>								</dd>
+	</dl>
+			<div class="hrline"></div>
+		<dl class="history" id="pl_searchHistory">
+			<dt>搜索历史</dt>
+			<dd node-type="searchHistory">
+				<div>加载中...</div>
+			</dd>
+		</dl>
+			</div>
+				<!--/左侧导航-->
+			</div>
+						<div class="W_main_c">
+				<!--搜索统计-->
+								<!--搜索统计-->
+				<!--纠错找人-->
+								<!--/纠错找人-->
+				<!--搜索条件筛选-->
+				<!-- search condition -->
+<div class="search_tab search_v4_new" id="pl_searchFilterUser">
+	<div class="tab_main" node-type="tab_sort">
+	  <ul class="tab_nav">
+		<li >
+			<a href="javascript:void(0);" action-type='search' action-data="flag=all">全部</a>		</li>
+		<li class="W_vline">|</li>
+		<li >
+			<a href="javascript:void(0);" action-type='search' action-data="flag=nickname">昵称</a>		</li>
+		<li class="W_vline">|</li>
+		<li >
+			<a href="javascript:void(0);" action-type='search' action-data="flag=tag">标签</a>		</li>
+		<li class="W_vline">|</li>
+		<li >
+			<a href="javascript:void(0);" action-type='search' action-data="flag=school">学校</a>		</li>
+		<li class="W_vline">|</li>
+		<li >
+			<a href="javascript:void(0);" action-type='search' action-data="flag=work">公司</a>		</li>
+	  </ul>
+	</div>
+	<div class="tab_sub clearfix">
+		<ul class="tab_option">
+			<li><a href="javascript:void(0);" class="W_moredown" node-type="showSortLayer"><span class="txt">
+			所有用户			</span><span class="more"></span></a></li>
+			<li><em class="W_vline">|</em></li>
+			<li><a href="javascript:void(0);" class="W_moredown" node-type="show_gender"><span class="txt">不限性别</span><span class="more"></span></a></li>
+			<li><em class="W_vline">|</em></li>
+			<li><a href="javascript:void(0);" class="W_moredown" node-type="showAgeLayer"><span class="txt">
+			不限年龄			</span><span class="more"></span></a></li>
+						<li><em class="W_vline">|</em></li>
+			<li><span class="txt">北京-延庆县</span><a class="change" href="javascript:void(0);" node-type="show_region">[切换]</a></li>
+					</ul>
+		<div class="search_more_layer clearfix" style="position:absolute; top:230px; left:590px; z-index:200p;width:270px; display:none" node-type="region_list">
+			<div class="more_title"><a href="javascript:void(0);"  action-type="prov" address="">所有地区</a><a href="javascript:void(0);">海外-美国</a></div>
+			<dl class="more_detail"  node-type="more_detail">
+				<dt class="choose">选择省/直辖市</dt>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="安徽">安徽</a></dd>
+								<dd><a href="javascript:void(0);" class="current" action-type="prov" address="北京">北京</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="重庆">重庆</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="福建">福建</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="甘肃">甘肃</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="广东">广东</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="广西">广西</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="贵州">贵州</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="海南">海南</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="河北">河北</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="黑龙江">黑龙江</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="河南">河南</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="湖北">湖北</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="湖南">湖南</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="内蒙古">内蒙古</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="江苏">江苏</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="江西">江西</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="吉林">吉林</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="辽宁">辽宁</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="宁夏">宁夏</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="青海">青海</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="山西">山西</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="山东">山东</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="上海">上海</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="四川">四川</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="天津">天津</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="西藏">西藏</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="新疆">新疆</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="云南">云南</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="浙江">浙江</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="陕西">陕西</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="台湾">台湾</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="香港">香港</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="澳门">澳门</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="海外">海外</a></dd>
+								<dd><a href="javascript:void(0);"  action-type="prov" address="其他">其他</a></dd>
+							</dl>
+		</div>
+		<ul node-type="userGenderWrap" class="search_more_ul search_more_ul_03 clearfix" style=" position:absolute; top:230px; left:490px; z-index:99999;width:40px; display:none;">
+		 <li><a href="javascript:void(0);" class="current" action-type="gender" action-data="gender=all"><span class="txt">不限</span></a></li>
+		 <li><a href="javascript:void(0);"  action-type="gender" action-data="gender=man"><span class="txt">男</span></a></li>
+		 <li><a href="javascript:void(0);"  action-type="gender" action-data="gender=women"><span class="txt">女</span></a></li> 
+		</ul>
+		<!-- �û�ѡ�� -->
+        <ul node-type="userSortWrap" class="search_more_ul search_more_ul_04 clearfix" style=" display:none; position:absolute; top:337px; left:201px; z-index:99999;width:63px;">
+         <li><a class="current" action-type="sort" action-data="sort=all" href="javascript:void(0);"><span class="txt">所有用户</span></a></li>
+         <li><a  action-type="sort" action-data="sort=vip" href="javascript:void(0);"><span class="txt">认证用户</span></a></li>
+         <li><a  action-type="sort" action-data="sort=ord" href="javascript:void(0);"><span class="txt">普通用户</span></a></li> 
+        </ul>
+        <!-- /�û�ѡ�� -->
+		<!-- ����ѡ�� -->
+        <ul node-type="userAgeWrap" class="search_more_ul search_more_ul_04 clearfix" style=" display:none; position:absolute; top:201px; left:427px; z-index:99999;width:68px;">
+         <li><a class="current" action-type="age" action-data="age=all" href="javascript:void(0);"><span class="txt">不限年龄</span></a></li>
+         <li><a  action-type="age" action-data="age=18y" href="javascript:void(0);"><span class="txt">18岁以下</span></a></li>
+         <li><a  action-type="age" action-data="age=22y" href="javascript:void(0);"><span class="txt">19~22岁</span></a></li> 
+         <li><a  action-type="age" action-data="age=29y" href="javascript:void(0);"><span class="txt">23~29岁</span></a></li> 
+         <li><a  action-type="age" action-data="age=39y" href="javascript:void(0);"><span class="txt">30~39岁</span></a></li>
+         <li><a  action-type="age" action-data="age=40y" href="javascript:void(0);"><span class="txt">40岁以上</span></a></li> 
+        </ul>
+        <!-- /����ѡ�� -->
+	</div>
+</div>
+<!-- search condition end-->				<!--/搜索条件筛选-->
+				<!--名人+相关用户推荐-->
+								<!--/名人+相关用户推荐--> 
+								<div class="search_main">
+					<!--找人结果列表-->
+					<div class="Sperson_feedlist" id="pl_userList">
+					<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/2449176725" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp2.sinaimg.cn/2449176725/50/5615541957/1" title=客学观 usercard="客学观" usercardUid="2449176725" uid="2449176725" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='2449176725' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="客学观" target="_blank" uid="2449176725" href="http://weibo.com/u/2449176725" usercard="客学观" usercardUid="2449176725" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">客学观</a>			<span class="addr">
+			<img  title="男" class="male" src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/2449176725" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/2449176725</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/2449176725/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 203</a><em class="space"> | </em>粉丝<a href="http://weibo.com/2449176725/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 175</a><em class="space"> | </em>微博<a href="http://weibo.com/2449176725/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 386</a></p>
+		<p class="W_textb">
+							简介：美女杀人不用刀，斩将追魂全在腰。
+					</p>
+		<p class="W_textb W_linkd_a">
+						标签：<a href="&tag=%25E7%25BE%258E%25E9%25A3%259F&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">美食</a> <a href="&tag=%25E8%2587%25AA%25E7%2594%25B1&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">自由</a> 					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/1968956892" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp1.sinaimg.cn/1968956892/50/5617773232/0" title=小骗子-娜娜 usercard="小骗子-娜娜" usercardUid="1968956892" uid="1968956892" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='1968956892' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="小骗子-娜娜" target="_blank" uid="1968956892" href="http://weibo.com/u/1968956892" usercard="小骗子-娜娜" usercardUid="1968956892" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">小骗子-娜娜<img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="ico_club" width="11" height="10"/></a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/1968956892" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/1968956892</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/1968956892/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 215</a><em class="space"> | </em>粉丝<a href="http://weibo.com/1968956892/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 180</a><em class="space"> | </em>微博<a href="http://weibo.com/1968956892/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 283</a></p>
+		<p class="W_textb">
+							简介：旧时代的小疯纸。
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">
+						教育信息：<a href="&school=%25E5%258C%2597%25E4%25BA%25AC%25E7%25A7%2591%25E6%258A%2580%25E8%2581%258C%25E4%25B8%259A%25E5%25AD%25A6%25E9%2599%25A2&Refer=SUer_school" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">北京科技职业学院</a> 					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/1661651825" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp2.sinaimg.cn/1661651825/50/1291827236/0" title=努力备考_南 usercard="努力备考_南" usercardUid="1661651825" uid="1661651825" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='1661651825' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="努力备考_南" target="_blank" uid="1661651825" href="http://weibo.com/u/1661651825" usercard="努力备考_南" usercardUid="1661651825" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">努力备考_南</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/1661651825" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/1661651825</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/1661651825/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 214</a><em class="space"> | </em>粉丝<a href="http://weibo.com/1661651825/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 178</a><em class="space"> | </em>微博<a href="http://weibo.com/1661651825/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 1611</a></p>
+		<p class="W_textb">
+					</p>
+		<p class="W_textb W_linkd_a">
+						标签：<a href="&tag=%25E5%25BA%259A%25E9%25A5%25AD&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">庚饭</a> <a href="&tag=%25E9%259F%25A9%25E5%25BA%259A&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">韩庚</a> <a href="&tag=%25E6%25B3%2595%25E5%25BE%258B&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">法律</a> 					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/2379838124" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp1.sinaimg.cn/2379838124/50/5610414181/1" title=浪子青11 usercard="浪子青11" usercardUid="2379838124" uid="2379838124" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='2379838124' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="浪子青11" target="_blank" uid="2379838124" href="http://weibo.com/u/2379838124" usercard="浪子青11" usercardUid="2379838124" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">浪子青11</a>			<span class="addr">
+			<img  title="男" class="male" src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/2379838124" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/2379838124</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/2379838124/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 36</a><em class="space"> | </em>粉丝<a href="http://weibo.com/2379838124/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 180</a><em class="space"> | </em>微博<a href="http://weibo.com/2379838124/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 9</a></p>
+		<p class="W_textb">
+							简介：你，需要的是值得期待的世界。
+					</p>
+		<p class="W_textb W_linkd_a">
+						标签：<a href="&tag=%25E5%25AE%2585%25E5%25A5%25B3&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">宅女</a> <a href="&tag=%25E5%258D%259A%25E5%25AE%25A2&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">博客</a> <a href="&tag=%25E6%25AC%25A7%25E7%25BE%258E%25E9%259F%25B3%25E4%25B9%2590&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">欧美音乐</a> <a href="&tag=%25E6%25AD%25A6%25E8%2589%25BA&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">武艺</a> <a href="&tag=%25E7%259C%258B%25E5%25B0%258F%25E8%25AF%25B4&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">看小说</a> 					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/2101592692" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp1.sinaimg.cn/2101592692/50/5600736412/0" title=DI邓发岩 usercard="DI邓发岩" usercardUid="2101592692" uid="2101592692" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='2101592692' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="DI邓发岩" target="_blank" uid="2101592692" href="http://weibo.com/u/2101592692" usercard="DI邓发岩" usercardUid="2101592692" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">DI邓发岩</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/2101592692" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/2101592692</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/2101592692/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 64</a><em class="space"> | </em>粉丝<a href="http://weibo.com/2101592692/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 176</a><em class="space"> | </em>微博<a href="http://weibo.com/2101592692/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 50</a></p>
+		<p class="W_textb">
+							简介：只想爱所有爱我的人
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/1991743722" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp3.sinaimg.cn/1991743722/50/5600587045/0" title=djrm_bj usercard="djrm_bj" usercardUid="1991743722" uid="1991743722" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='1991743722' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="djrm_bj" target="_blank" uid="1991743722" href="http://weibo.com/u/1991743722" usercard="djrm_bj" usercardUid="1991743722" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">djrm_bj</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/1991743722" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/1991743722</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/1991743722/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 61</a><em class="space"> | </em>粉丝<a href="http://weibo.com/1991743722/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 178</a><em class="space"> | </em>微博<a href="http://weibo.com/1991743722/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 52</a></p>
+		<p class="W_textb">
+							简介：我不会侍候老婆关你什么事?再怎么着，我也进过两回洞房了!
+					</p>
+		<p class="W_textb W_linkd_a">
+						标签：<a href="&tag=%25E6%259D%2582%25E5%25BF%2597&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">杂志</a> <a href="&tag=%25E6%2591%2584%25E5%25BD%25B1%25E6%258E%25A7&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">摄影控</a> <a href="&tag=%25E5%2593%2581%25E7%2589%258C&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">品牌</a> <a href="&tag=%25E6%259C%258D%25E8%25A3%2585%25E8%25AE%25BE%25E8%25AE%25A1&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">服装设计</a> <a href="&tag=%25E5%25B8%2583%25E4%25B8%2581&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">布丁</a> 					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/2434063737" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp2.sinaimg.cn/2434063737/50/5617195720/0" title=o蝶恋花 usercard="o蝶恋花" usercardUid="2434063737" uid="2434063737" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='2434063737' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="o蝶恋花" target="_blank" uid="2434063737" href="http://weibo.com/u/2434063737" usercard="o蝶恋花" usercardUid="2434063737" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">o蝶恋花</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/2434063737" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/2434063737</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/2434063737/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 136</a><em class="space"> | </em>粉丝<a href="http://weibo.com/2434063737/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 178</a><em class="space"> | </em>微博<a href="http://weibo.com/2434063737/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 58</a></p>
+		<p class="W_textb">
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/2140737175" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp4.sinaimg.cn/2140737175/50/5629123971/0" title=沐紫小窝 usercard="沐紫小窝" usercardUid="2140737175" uid="2140737175" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='2140737175' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="沐紫小窝" target="_blank" uid="2140737175" href="http://weibo.com/u/2140737175" usercard="沐紫小窝" usercardUid="2140737175" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">沐紫小窝</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/2140737175" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/2140737175</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/2140737175/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 663</a><em class="space"> | </em>粉丝<a href="http://weibo.com/2140737175/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 175</a><em class="space"> | </em>微博<a href="http://weibo.com/2140737175/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 7</a></p>
+		<p class="W_textb">
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/2014199304" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp1.sinaimg.cn/2014199304/50/5600752686/0" title=齐潇敏 usercard="齐潇敏" usercardUid="2014199304" uid="2014199304" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='2014199304' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="齐潇敏" target="_blank" uid="2014199304" href="http://weibo.com/u/2014199304" usercard="齐潇敏" usercardUid="2014199304" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">齐潇敏</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/2014199304" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/2014199304</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/2014199304/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 51</a><em class="space"> | </em>粉丝<a href="http://weibo.com/2014199304/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 174</a><em class="space"> | </em>微博<a href="http://weibo.com/2014199304/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 48</a></p>
+		<p class="W_textb">
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/1500053757" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp2.sinaimg.cn/1500053757/50/5607643942/0" title=nanablue嘻嘻 usercard="nanablue嘻嘻" usercardUid="1500053757" uid="1500053757" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='1500053757' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="nanablue嘻嘻" target="_blank" uid="1500053757" href="http://weibo.com/u/1500053757" usercard="nanablue嘻嘻" usercardUid="1500053757" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">nanablue嘻嘻</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/1500053757" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/1500053757</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/1500053757/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 189</a><em class="space"> | </em>粉丝<a href="http://weibo.com/1500053757/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 179</a><em class="space"> | </em>微博<a href="http://weibo.com/1500053757/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 1749</a></p>
+		<p class="W_textb">
+					</p>
+		<p class="W_textb W_linkd_a">
+						标签：<a href="&tag=%25E8%259B%2587%25E5%25A4%25AB%25E5%25BA%25A7or%25E5%25B0%2584%25E6%2589%258B%25E5%25BA%25A7&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">蛇夫座or射手座</a> <a href="&tag=%25E7%258E%25AE%25E6%259F%258F%25E7%258E%25AE%25E6%259F%258F&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">玮柏玮柏</a> <a href="&tag=%25E7%2588%25B1%25E8%25A3%2585%25E9%2585%25B7&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">爱装酷</a> <a href="&tag=%25E9%25A1%25BE%25E5%25AE%25B6%25E8%2587%25AD%25E7%25BE%258E%25E7%2588%25B1%25E5%25BE%2597%25E7%2591%259F&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">顾家臭美爱得瑟</a> <a href="&tag=%25E6%259C%258B%25E5%258F%258B%25E5%25AE%2581%25E7%25BC%25BA%25E6%25AF%258B%25E6%25BB%25A5&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">朋友宁缺毋滥</a> <a href="http://weibo.com/1500053757/info" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">...</a> 					</p>
+		<p class="W_textb W_linkd_a">
+						教育信息：<a href="&school=%25E5%258C%2597%25E4%25BA%25AC%25E4%25BA%25A4%25E9%2580%259A%25E8%2581%258C%25E4%25B8%259A%25E6%258A%2580%25E6%259C%25AF%25E5%25AD%25A6%25E9%2599%25A2&Refer=SUer_school" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">北京交通职业技术学院</a> 					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/skyfly1320" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp2.sinaimg.cn/1854119333/50/5622969508/0" title=放任的-自由 usercard="放任的-自由" usercardUid="1854119333" uid="1854119333" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='1854119333' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="放任的-自由" target="_blank" uid="1854119333" href="http://weibo.com/skyfly1320" usercard="放任的-自由" usercardUid="1854119333" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">放任的-自由</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/skyfly1320" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/skyfly1320</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/1854119333/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 89</a><em class="space"> | </em>粉丝<a href="http://weibo.com/1854119333/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 176</a><em class="space"> | </em>微博<a href="http://weibo.com/1854119333/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 490</a></p>
+		<p class="W_textb">
+							简介：一直习惯简单的、随性的、放任的自由，不喜欢动辄多久、不温不火、日复一日，无聊的生活【……】
+					</p>
+		<p class="W_textb W_linkd_a">
+						标签：<a href="&tag=%25E6%259E%2597%25E4%25BF%258A%25E6%259D%25B0&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">林俊杰</a> <a href="&tag=%25E7%259D%25A1%25E8%25A7%2589&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">睡觉</a> <a href="&tag=%25E5%258A%25A8%25E6%25BC%25AB&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">动漫</a> <a href="&tag=%25E5%2590%25AC%25E6%25AD%258C&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">听歌</a> <a href="&tag=%25E7%2594%25B5%25E5%25BD%25B1&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">电影</a> <a href="&tag=%25E8%2587%25AA%25E7%2594%25B1&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">自由</a> <a href="&tag=%25E5%25AD%25A6%25E7%2594%259F&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">学生</a> <a href="&tag=%25E6%2597%2585%25E6%25B8%25B8&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">旅游</a> <a href="&tag=90%25E5%2590%258E&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">90后</a> <a href="&tag=%25E9%259F%25B3%25E4%25B9%2590&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">音乐</a> 					</p>
+		<p class="W_textb W_linkd_a">
+						教育信息：<a href="&school=%25E5%25BB%25B6%25E5%25BA%2586%25E5%259B%259B%25E4%25B8%25AD&Refer=SUer_school" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">延庆四中</a> <a href="&school=%25E5%25BB%25B6%25E5%25BA%2586%25E4%25B8%2580%25E4%25B8%25AD&Refer=SUer_school" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">延庆一中</a> 					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/2161762364" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp1.sinaimg.cn/2161762364/50/5602332900/1" title=佛佑传宇 usercard="佛佑传宇" usercardUid="2161762364" uid="2161762364" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='2161762364' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="佛佑传宇" target="_blank" uid="2161762364" href="http://weibo.com/u/2161762364" usercard="佛佑传宇" usercardUid="2161762364" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">佛佑传宇</a>			<span class="addr">
+			<img  title="男" class="male" src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/2161762364" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/2161762364</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/2161762364/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 203</a><em class="space"> | </em>粉丝<a href="http://weibo.com/2161762364/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 181</a><em class="space"> | </em>微博<a href="http://weibo.com/2161762364/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 188</a></p>
+		<p class="W_textb">
+							简介：你看到了我的笑容、却不了解我的悲催
+					</p>
+		<p class="W_textb W_linkd_a">
+						标签：<a href="&tag=%25E5%25BE%25AE%25E5%258D%259A&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">微博</a> <a href="&tag=%25E5%25AE%2589%25E9%259D%2599&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">安静</a> <a href="&tag=%25E5%25A5%258B%25E6%2596%2597&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">奋斗</a> <a href="&tag=hr&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">hr</a> 					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/2121633440" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp1.sinaimg.cn/2121633440/50/5600856142/0" title=WENG贵娃 usercard="WENG贵娃" usercardUid="2121633440" uid="2121633440" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='2121633440' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="WENG贵娃" target="_blank" uid="2121633440" href="http://weibo.com/u/2121633440" usercard="WENG贵娃" usercardUid="2121633440" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">WENG贵娃</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/2121633440" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/2121633440</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/2121633440/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 67</a><em class="space"> | </em>粉丝<a href="http://weibo.com/2121633440/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 176</a><em class="space"> | </em>微博<a href="http://weibo.com/2121633440/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 51</a></p>
+		<p class="W_textb">
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/2266956574" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp3.sinaimg.cn/2266956574/50/5608975137/0" title=阳光的小兔子在台湾 usercard="阳光的小兔子在台湾" usercardUid="2266956574" uid="2266956574" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='2266956574' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="阳光的小兔子在台湾" target="_blank" uid="2266956574" href="http://weibo.com/u/2266956574" usercard="阳光的小兔子在台湾" usercardUid="2266956574" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">阳光的小兔子在台湾</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/2266956574" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/2266956574</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/2266956574/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 289</a><em class="space"> | </em>粉丝<a href="http://weibo.com/2266956574/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 176</a><em class="space"> | </em>微博<a href="http://weibo.com/2266956574/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 92</a></p>
+		<p class="W_textb">
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/1907730447" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp4.sinaimg.cn/1907730447/50/5623247341/1" title=这都不叫事- usercard="这都不叫事-" usercardUid="1907730447" uid="1907730447" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='1907730447' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="这都不叫事-" target="_blank" uid="1907730447" href="http://weibo.com/u/1907730447" usercard="这都不叫事-" usercardUid="1907730447" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">这都不叫事-</a>			<span class="addr">
+			<img  title="男" class="male" src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/1907730447" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/1907730447</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/1907730447/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 240</a><em class="space"> | </em>粉丝<a href="http://weibo.com/1907730447/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 176</a><em class="space"> | </em>微博<a href="http://weibo.com/1907730447/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 14</a></p>
+		<p class="W_textb">
+							简介：I DO_
+					</p>
+		<p class="W_textb W_linkd_a">
+						标签：<a href="&tag=%25E5%25AD%25A6%25E7%2594%259F&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">学生</a> <a href="&tag=%25E8%2587%25AA%25E7%2594%25B1&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">自由</a> <a href="&tag=%25E6%2597%2585%25E8%25A1%258C&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">旅行</a> <a href="&tag=80%25E5%2590%258E&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">80后</a> <a href="&tag=%25E5%2590%25AC%25E6%25AD%258C&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">听歌</a> <a href="&tag=%25E7%2594%25B5%25E5%25BD%25B1&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">电影</a> <a href="&tag=%25E9%259F%25B3%25E4%25B9%2590&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">音乐</a> 					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/2090575943" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp4.sinaimg.cn/2090575943/50/5624542097/0" title=J--Biebs usercard="J--Biebs" usercardUid="2090575943" uid="2090575943" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='2090575943' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="J--Biebs" target="_blank" uid="2090575943" href="http://weibo.com/u/2090575943" usercard="J--Biebs" usercardUid="2090575943" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">J--Biebs</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/2090575943" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/2090575943</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/2090575943/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 1666</a><em class="space"> | </em>粉丝<a href="http://weibo.com/2090575943/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 177</a><em class="space"> | </em>微博<a href="http://weibo.com/2090575943/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 927</a></p>
+		<p class="W_textb">
+							简介：喜欢男孩子喜欢的东西，有*篮球* 摇滚音乐*bieber*街舞*跆拳道*、、就着这样、
+					</p>
+		<p class="W_textb W_linkd_a">
+						标签：<a href="&tag=%25E6%2591%2587%25E6%25BB%259A&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">摇滚</a> <a href="&tag=%25E9%259F%25B3%25E4%25B9%2590&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">音乐</a> <a href="&tag=%25E8%25A1%2597%25E8%2588%259E&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">街舞</a> <a href="&tag=%25E8%25A1%2597%25E5%25A4%25B4%25E7%25AF%25AE%25E7%2590%2583&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">街头篮球</a> <a href="&tag=%25E7%25AF%25AE%25E7%2590%2583%25E6%258E%25A7&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">篮球控</a> <a href="&tag=%25E6%25AC%25A7%25E7%25BE%258E%25E6%258E%25A7&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">欧美控</a> <a href="&tag=JBiebs%25E6%258E%25A7&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">JBiebs控</a> <a href="&tag=%25E5%25A4%25A9%25E8%259D%258E%25E5%25BA%25A7&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">天蝎座</a> 					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/2704922111" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp4.sinaimg.cn/2704922111/50/5629036796/0" title=苏玄童鞋 usercard="苏玄童鞋" usercardUid="2704922111" uid="2704922111" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='2704922111' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="苏玄童鞋" target="_blank" uid="2704922111" href="http://weibo.com/u/2704922111" usercard="苏玄童鞋" usercardUid="2704922111" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">苏玄童鞋</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/2704922111" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/2704922111</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/2704922111/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 185</a><em class="space"> | </em>粉丝<a href="http://weibo.com/2704922111/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 174</a><em class="space"> | </em>微博<a href="http://weibo.com/2704922111/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 32</a></p>
+		<p class="W_textb">
+							简介：一直以来 我都觉得自己不够好 我承认 我不完美 但是 我 很真
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/langgongoo" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp3.sinaimg.cn/1411953594/50/1296627523/1" title=狼公oO usercard="狼公oO" usercardUid="1411953594" uid="1411953594" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='1411953594' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="狼公oO" target="_blank" uid="1411953594" href="http://weibo.com/langgongoo" usercard="狼公oO" usercardUid="1411953594" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">狼公oO<img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="ico_club" width="11" height="10"/></a>			<span class="addr">
+			<img  title="男" class="male" src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/langgongoo" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/langgongoo</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/1411953594/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 564</a><em class="space"> | </em>粉丝<a href="http://weibo.com/1411953594/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 182</a><em class="space"> | </em>微博<a href="http://weibo.com/1411953594/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 1421</a></p>
+		<p class="W_textb">
+							简介：人活一世短短几十载，要珍惜！
+					</p>
+		<p class="W_textb W_linkd_a">
+						标签：<a href="&tag=%25E8%25AE%25A1%25E7%25AE%2597%25E6%259C%25BA&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">计算机</a> <a href="&tag=%25E8%2587%25AA%25E7%2594%25B1&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">自由</a> 					</p>
+		<p class="W_textb W_linkd_a">
+						教育信息：<a href="&school=%25E5%258D%2597%25E5%25BC%2580%25E5%25A4%25A7%25E5%25AD%25A6&Refer=SUer_school" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">南开大学</a> 					</p>
+		<p class="W_textb W_linkd_a">								
+						职业信息：<a href="&work=%25E6%25B3%2595%25E5%2588%25B6%25E6%2599%259A%25E6%258A%25A5%25E7%25A4%25BE&Refer=SUer_company" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">法制晚报社</a> 					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/2643798311" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp4.sinaimg.cn/2643798311/50/5626947159/0" title=张新媛嘀哒滴哒的幸福 usercard="张新媛嘀哒滴哒的幸福" usercardUid="2643798311" uid="2643798311" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='2643798311' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="张新媛嘀哒滴哒的幸福" target="_blank" uid="2643798311" href="http://weibo.com/u/2643798311" usercard="张新媛嘀哒滴哒的幸福" usercardUid="2643798311" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">张新媛嘀哒滴哒的幸福</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/2643798311" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/2643798311</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/2643798311/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 302</a><em class="space"> | </em>粉丝<a href="http://weibo.com/2643798311/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 173</a><em class="space"> | </em>微博<a href="http://weibo.com/2643798311/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 326</a></p>
+		<p class="W_textb">
+							简介：傻傻的丫头
+					</p>
+		<p class="W_textb W_linkd_a">
+					</p>
+		<p class="W_textb W_linkd_a">
+						教育信息：<a href="&school=%25E9%25A6%2596%25E9%2583%25BD%25E5%25B8%2588%25E8%258C%2583%25E5%25A4%25A7%25E5%25AD%25A6&Refer=SUer_school" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">首都师范大学</a> 					</p>
+		<p class="W_textb W_linkd_a">								
+					</p>
+			</dd>
+	</dl>
+<dl class="clearfix">
+	<dt><a href="http://weibo.com/u/2407459582" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');" ><img src="http://tp3.sinaimg.cn/2407459582/50/5631237041/0" title=大卡蓓蓓 usercard="大卡蓓蓓" usercardUid="2407459582" uid="2407459582" /></a></dt>	
+	<dd class="concern">
+								<p class="fllow"><a href="javascript:void(0);" class="W_addbtn" action-type='follow' uid='2407459582' onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_mark_page');"><img src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" alt="" class="addicon" />加关注</a></p>
+						</dd>
+	<dd class="person_info">
+		<p class="tit">
+			<a title="大卡蓓蓓" target="_blank" uid="2407459582" href="http://weibo.com/u/2407459582" usercard="大卡蓓蓓" usercardUid="2407459582" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">大卡蓓蓓</a>			<span class="addr">
+			<img title="女" class="female"  src="http://img.t.sinajs.cn/t4/style/images/common/transparent.gif?version=201205031835" />
+			北京，延庆县</span>
+		</p>
+		<p class="p_b">
+			<a class="W_linkc" target="_blank" href="http://weibo.com/u/2407459582" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">http://weibo.com/u/2407459582</a>
+					</p>
+		<!--认证用户/运营干预第一条用户展示认证原因-->
+				<p class="p_c p_num">关注<a href="http://weibo.com/2407459582/follow" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 216</a><em class="space"> | </em>粉丝<a href="http://weibo.com/2407459582/fans" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 173</a><em class="space"> | </em>微博<a href="http://weibo.com/2407459582/profile" target="_blank" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');"> 573</a></p>
+		<p class="W_textb">
+							简介：自古红颜多水货，霍霍霍霍霍霍霍
+					</p>
+		<p class="W_textb W_linkd_a">
+						标签：<a href="&tag=%25E5%25A4%25A7%25E5%25AD%25A6%25E7%2594%259F&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">大学生</a> <a href="&tag=%25E7%259D%25A1%25E8%25A7%2589&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">睡觉</a> <a href="&tag=%25E7%25BE%258E%25E5%2589%25A7&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">美剧</a> <a href="&tag=%25E5%2594%25B1%25E6%25AD%258C&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">唱歌</a> <a href="&tag=%25E5%25B0%258F%25E8%25AF%25B4&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">小说</a> <a href="&tag=%25E9%25AA%25B7%25E9%25AB%2585%25E6%258E%25A7&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">骷髅控</a> <a href="&tag=%25E5%258F%25B0%25E7%2590%2583%25E6%258E%25A7&Refer=SUer_tag" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">台球控</a> 					</p>
+		<p class="W_textb W_linkd_a">
+						教育信息：<a href="&school=%25E5%258C%2597%25E4%25BA%25AC%25E4%25BA%25BA%25E6%2596%2587%25E5%25A4%25A7%25E5%25AD%25A6&Refer=SUer_school" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">北京人文大学</a> <a href="&school=%25E6%25BC%25AF%25E6%25B2%25B3%25E4%25BA%2594%25E9%25AB%2598&Refer=SUer_school" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">漯河五高</a> <a href="&school=%25E9%2583%25BE%25E5%259F%258E%25E5%259F%258E%25E5%2585%25B3%25E4%25B8%25AD%25E5%25AD%25A6&Refer=SUer_school" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">郾城城关中学</a> 					</p>
+		<p class="W_textb W_linkd_a">								
+						职业信息：<a href="&work=%25E4%25BA%25BA%25E6%2596%2587%25E4%25B9%258B%25E5%25A3%25B0%25E5%25B9%25BF%25E6%2592%25AD%25E5%258F%25B0&Refer=SUer_company" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','user_feed_page');">人文之声广播台</a> 					</p>
+			</dd>
+	</dl>
+
+					</div>
+					<!--/找人结果列表-->
+					<!--用户过滤-->
+										<!--/用户过滤-->
+					<div class="W_pages W_pages_comment">
+<a href="/user/&keytime=1335657463672&region=custom:11:29&page=46" class="W_btn_a"><span>上一页</span></a>
+         	     <a href="/user/&keytime=1335657463672&region=custom:11:29&page=1">1</a>
+               	 <a>...</a>
+	           	     <a href="/user/&keytime=1335657463672&region=custom:11:29&page=45">45</a>
+               	     <a href="/user/&keytime=1335657463672&region=custom:11:29&page=46">46</a>
+               		<a class="current">47</a>
+               	     <a href="/user/&keytime=1335657463672&region=custom:11:29&page=48">48</a>
+               	     <a href="/user/&keytime=1335657463672&region=custom:11:29&page=49">49</a>
+               	     <a href="/user/&keytime=1335657463672&region=custom:11:29&page=50">50</a>
+          <a href="/user/&keytime=1335657463672&region=custom:11:29&page=48" class="W_btn_a"><span>下一页</span></a>
+</div>
+
+				</div>
+														<div id="pl_searchBar_b" class="search_bar search_bar_btm">
+		<input node-type="keyword" class="input_search" type="text" value="" maxlength="40"/>
+		<a node-type="srchBtn"	 class="btn_search" href="javascript:void(0);">搜索</a>
+	</div>
+	
+							</div>
+						<div class="W_main_r" id="pl_searchRight">
+				<div node-type="interestUser" class="W_rightModule" style="display:none;"></div>				<p class="search_feedback" node-type="advice">欢迎提交微博搜索使用反馈，请直接<a href="javascript:void(0);" node-type="suggest" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','weibo_feedback');">发表意见</a> 或<a href="http://weibo.com/mbsearch" onclick="GB_SUDA._S_uaTrack('tblog_search_v4','weibo_help');" target="_blank">@搜索助理</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="global_footer">
+		<div class="clearfix">
+	<dl class="list">
+		<dt>找找感兴趣的人</dt>
+		<dd><a href="http://weibo.com/pub/star ">名人堂</a>　<a href="http://weibo.com/pub/star/mediumlist.php ">媒体汇</a></dd>
+		<dd><a href="http://weibo.com/pub/star/brandlist.php">品牌馆</a>　<a href="http://weibo.com/pub/star/governmenthall.php ">政务厅</a></dd>
+		<dd><a href="http://weibo.com/pub/star/websitelist.php ">网站荟</a>　<a href="http://weibo.com/pub/star/schoollist.php ">校园</a> <a href="http://weibo.com/pub/star/agencylist.php ">机构</a></dd>
+		<dd><a href="http://club.weibo.com">微博达人</a></dd>
+		<dd><a href="http://weibo.com/f/find/guess ">猜你喜欢</a></dd>
+	</dl>
+	<dl class="list">
+		<dt>精彩内容</dt>
+		<dd><a href="http://weibo.com/pub/topic">微话题</a>　<a href="http://data.weibo.com/top">风云榜</a></dd>
+		<dd><a href="http://talk.weibo.com">微访谈</a>　<a href="http://live.weibo.com">微直播</a></dd>
+		<dd><a href="http://plaza.weibo.com">微博精选</a></dd>
+		<dd><a href="http://weibo.com/pub/news ">随便看看</a></dd>
+		<dd><a href="http://weibo.com/pub/city ">同城微博</a></dd>
+	</dl>
+	<dl class="list">
+		<dt>热门应用</dt>
+		<dd><a href="http://q.weibo.com">微群</a>　　<a href="http://game.weibo.com">游戏</a></dd>
+		<dd><a href="http://photo.weibo.com/">相册</a>　　<a href="http://music.weibo.com/t/index.php">微音乐</a></dd>
+		<dd><a href="http://event.weibo.com">微活动</a>　<a href="http://vote.weibo.com">投票</a></dd>
+		<dd><a href="http://radio.weibo.com">微电台</a>　<a href="http://screen.weibo.com/">大屏幕</a></dd>
+	</dl>
+	<dl class="list">
+		<dt>手机玩微博</dt>
+		<dd><a href="http://weibo.com/mobile/wap.php">手机WAP版</a></dd>
+		<dd><a href="http://weibo.com/mobile/msg.php">短信彩信发微博</a></dd>
+		<dd><a href="http://weibo.com/mobile/iphone.php">iPhone客户端</a></dd>
+		<dd><a href="http://weibo.com/mobile/android.php">Android客户端</a></dd>
+		<dd><a href="http://weibo.com/mobile/s60.php">Symbian客户端</a></dd>
+	</dl>
+	<dl class="list list_right">
+		<dt>认证&合作</dt>
+		<dd><a href="http://weibo.com/verify">申请认证</a></dd>
+		<dd><a href="http://open.weibo.com/">开放平台</a></dd>
+		<dd><a href="http://a.weibo.com/proc/productintro.php">企业微博</a></dd>
+		<dd><a href="http://weibo.com/app/website">连接网站</a></dd>
+		<dd><a href="http://weibo.com/static/logo">微博标识使用规范</a></dd>
+	</dl>
+	</div>
+		<div class="other_link clearfix">
+		<div class="help_link">
+				<p><a href="http://help.weibo.com/?refer=didao " class="ico_service" target="_blank">微博帮助</a>　<a href="http://weibo.com/zt/s?k=9286" target="_blank">意见反馈</a> <a href="http://hr.weibo.com" target="_blank">微博招聘</a>　<a href="http://open.weibo.com/" target="_blank">开放平台</a>　<a href="http://news.sina.com.cn/guide/" target="_blank">新浪网导航</a>　<a href="javascript:void(0);" onclick="javascript:window.open('http://weibo.com/reportspam?type=4&url=http%3A%2F%2Fs.weibo.com', 'newwindow', 'height=700, width=550, toolbar =yes, menubar=no, scrollbars=no, resizable=yes, location=no, status=no');">不良信息举报</a></p>
+				<p>北京微梦创科网络技术有限公司　<a href="http://weibo.com/aj/static/jww.html" target="_blank">京网文[2011]0398-130号</a> <a href="http://www.miibeian.gov.cn" target="_blank">京ICP证100780号</a></p>
+		</div>
+		<div class="copy">
+			<p class="W_linkb">
+						<select id="pl_content_changeLanguage" class="htc_select"><option value="zh-cn" selected="selected">中文(简体)</option><option value="zh-tw" >中文(繁体)</option></select>
+						</p>
+			<p>Copyright &copy; 1996-2012 SINA</p>
+		</div>
+	</div>
+</div>
+<!--gotop-->
+<div class="W_gotop" id="base_scrollToTop">
+	<a href="javascript:void(0);" ><span><em class="sj">&diams;</em><em class="fk">▐</em>返回顶部</span></a>
+</div>
+<!--/gotop-->
+<!-- SUDA_CODE_START -->
+<script src="http://tjs.sjs.sinajs.cn/t35/platform/static/js/suda_wb_v851c.js" type="text/javascript"></script>
+<script type="text/javascript" > _S_pSt(_S_PID_); </script> 
+ 
+<noScript><div style='position:absolute;top:0;left:0;width:0;height:0;visibility:hidden'><i
+mg width=0 height=0 src='http://beacon.sina.com.cn/a.gif?noScript'
+border='0' alt='' /></div></noScript>
+<!-- SUDA_CODE_END -->
+<!-- SUDA_CLICKAREA_CODE_START -->
+<script type="text/javascript" src="http://image2.sina.com.cn/unipro/pub/tblog_clickarea.js"></script>
+<script type="text/javascript">suds_clickAct_init(20, 60000);</script>
+<!-- SUDA_CLICKAREA_CODE_END -->
+<script type="text/javascript" src="http://js.t.sinajs.cn/t4/webim/js/loader.js?version=201205031835"></script>
+<script type="text/javascript">
+	STK.wbim.loadWebIM({'source':'search'});
+</script>
+
+</div>
+<script type="text/javascript" src="http://js.t.sinajs.cn/t4/apps/searchV41/js/searchUser.js?version=201205031835"></script>
+</body>
+</html>

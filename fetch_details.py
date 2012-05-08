@@ -164,7 +164,8 @@ def get_one_user_detail_page(user):
     logging = Logging.get_logger('get_one_user_detail_page')
     try:
         waiting_counter = 0
-        searchUrl = 'http://s.weibo.com/user/&keytime=1336285139672&nickname=%s&Refer=User_mid'% (user.encode('utf-8'))
+        #searchUrl = 'http://s.weibo.com/user/&keytime=1336285139672&nickname=%s&Refer=User_mid'% (user.encode('utf-8'))
+        searchUrl = 'http://s.weibo.com/user/&keytime=1336439152946&nickname=%s&region=custom:11:1000&Refer=User_mid'% (user.encode('utf-8'))
         #logging.info("searchUrl is: " + searchUrl)
         while (True):
             content =urllib2.urlopen(searchUrl).read()
@@ -209,7 +210,7 @@ def get_user_detail_pages(user_list):
         opentxt = urllib2.urlopen(login_url).read()
         for user in user_list:
             process_detail_page_counter += 1
-            logging.info("-----=======================-------==============================--->>>> Current --> %s user: %s" % (str(process_detail_page_counter), user))
+            logging.info("-----=======================-------==============================--->>>> Current --> %s user: %s" % (str(process_detail_page_counter), user[0]))
             if (True == get_one_user_detail_page(user[0])):
                 logging.info("Get user: " + user[0] + " detail page OK!")
                 get_page_number += 1
@@ -238,7 +239,7 @@ def get_user_details(user_list):
         if (len(user_list) == g_fetch_users_number):
             logging.info("Fetch users detail OK! Fetch All!")
         else:
-            logging.warning("NOT Fetch All of users, only %s out of %s" % (str(len(fetch_result)), str(g_fetch_users_number)))
+            logging.warning("NOT Fetch All of users, only %s out of %s" % (str(len(user_list)), str(g_fetch_users_number)))
         return True
 
 def check_parsing_env():
@@ -337,6 +338,7 @@ def parse_store_user_details(conn):
             return False
 
 def fetch_temp_users(conn):
+    global g_fetch_users_number
     logging = Logging.get_logger('fetch_temp_users')
     if (Mode.FROM_DB == g_mode):
         cursor = conn.cursor()
@@ -346,7 +348,8 @@ def fetch_temp_users(conn):
     elif (Mode.FROM_NAME == g_mode):
         logging.info("NAME MODE!!! ")
         logging.info("Process user: %s" % g_name)
-        return [(g_name)]
+        g_fetch_users_number = 1
+        return [(g_name,),]
     else:
         logging.error("Error Mode!! Mode: " + str(g_mode))
         return False
@@ -419,7 +422,7 @@ def main():
     global g_fetch_users_number, g_mode, g_name, g_waiting_base, g_pages_location, g_path_parser, g_cookie_file, g_max_waiting_time, g_user, g_pwd
     logging = Logging.get_logger('main')
     try:
-        opts,args = getopt.getopt(sys.argv[1:],"u:n:w:d:c:t:p:a:b:")
+        opts,args = getopt.getopt(sys.argv[1:],"u:n:w:d:c:t:p:a:b:l:")
         for op,value in opts:
             if op == "-u":
                 g_fetch_users_number = int(value)
@@ -459,6 +462,8 @@ def main():
                 g_user = str(value)
             elif op == "-b":
                 g_pwd = str(value)
+            elif op == "-l":
+                login()
         print(opts)
         print(args)
     except getopt.GetoptError:
@@ -466,7 +471,6 @@ def main():
         logging.info("Stored " + str(g_stored_counter) + " New Person In Total!")
         sys.exit(1)
 
-    login()
     
     logging.info("========------------>>> ENV CHECK <<<-----------==========")
     if (True == is_env_ready()):

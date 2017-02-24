@@ -58,8 +58,8 @@ def get_user(username):
 
 
 def login():
-    username = 'flyingjoe2010@gmail.com'
-    pwd = 'wonderful1989'
+    username = 'xxx@gmail.com'
+    pwd = 'xxx'
     url = 'http://login.sina.com.cn/sso/login.php?client=ssologin.js(v1.3.22)'
     cookiefile='./cookies'+username[0:5]+'.txt'
     cookies = cookielib.LWPCookieJar(cookiefile)
